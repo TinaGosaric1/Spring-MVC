@@ -8,8 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="38b5db22-0528-4cca-bb72-f98701cdf2fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tg/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/main-menu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tg/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tg/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-mvc-demo-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/my-form1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/my-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/my-form2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/my-view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +163,7 @@
       <workItem from="1673009191334" duration="5000" />
       <workItem from="1673259353696" duration="2061000" />
       <workItem from="1673264150846" duration="4000" />
-      <workItem from="1673264224703" duration="2217000" />
+      <workItem from="1673264224703" duration="6539000" />
     </task>
     <servers />
   </component>
