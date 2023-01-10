@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
 
+<head>
+    <title>Student Confirmation</title>
+</head>
+
 <body>
 
-Hello World of Spring!
-
-<br><br>
-
-Student name: ${param.studentName}
-
-<br><br>
-
-The message: ${message}
+The student is confirmed: ${student.firstName} ${student.lastName}
+<!-- calls student.getFirstName(), student.getLastName() -->
 
 </body>
 
