@@ -14,6 +14,10 @@ The student is confirmed: ${student.firstName} ${student.lastName}
 
 Country: ${student.country} <!-- calls student.getCountry() -->
 
+<br><br>
+
+Favorite Language: ${student.favoriteLanguage}
+
 </body>
 
 </html>
