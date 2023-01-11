@@ -1,6 +1,6 @@
 package com.tg;
 
-import javax.print.DocFlavor;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
 public class Student {
@@ -10,6 +10,7 @@ public class Student {
     private String country;
     private LinkedHashMap<String, String> countryOptions;
     private String favoriteLanguage;
+    private ArrayList<String> operatingSystems = new ArrayList<>();
 
     public Student() {
         countryOptions = new LinkedHashMap<>();
@@ -55,5 +56,13 @@ public class Student {
 
     public void setFavoriteLanguage(String favoriteLanguage) {
         this.favoriteLanguage = favoriteLanguage;
+    }
+
+    public ArrayList<String> getOperatingSystems() {
+        return operatingSystems;
+    }
+
+    public void setOperatingSystems(ArrayList<String> operatingSystems) {
+        this.operatingSystems = operatingSystems;
     }
 }

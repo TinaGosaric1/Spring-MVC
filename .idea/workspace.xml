@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38b5db22-0528-4cca-bb72-f98701cdf2fe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tg/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tg/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/my-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/my-form.jsp" afterDir="false" />
@@ -42,23 +44,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tina.gosaric/Desktop/Learning/0 JAVA/Projects/spring-mvc-demo-one/web/WEB-INF&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;af3339f50d3544fd80227ad3077dc7cc&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tina.gosaric/Desktop/Learning/0 JAVA/Projects/spring-mvc-demo-one/lib/jstl-1.2.jar",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "af3339f50d3544fd80227ad3077dc7cc"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tina.gosaric\Desktop\Learning\0 JAVA\Projects\spring-mvc-demo-one\web\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tina.gosaric\Desktop\Learning\0 JAVA\Projects\spring-mvc-demo-one\lib" />
     </key>
   </component>
   <component name="RunManager">
@@ -164,7 +169,7 @@
       <workItem from="1673264150846" duration="4000" />
       <workItem from="1673264224703" duration="7647000" />
       <workItem from="1673332029917" duration="7919000" />
-      <workItem from="1673419132611" duration="7972000" />
+      <workItem from="1673419132611" duration="11284000" />
     </task>
     <servers />
   </component>
