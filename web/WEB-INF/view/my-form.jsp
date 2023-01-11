@@ -19,7 +19,15 @@
 
     <br><br>
 
-    <input type="submit"/>
+    Country:
+
+    <form:select path="country">
+        <form:options items="${student.countryOptions}"/> <!-- Spring MVC will call student.getCountryOptions() -->
+
+    </form:select>
+
+
+    <input type="submit" value="Submit"/>
 </form:form>
 
 </body>
