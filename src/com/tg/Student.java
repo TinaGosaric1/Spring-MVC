@@ -8,7 +8,7 @@ import java.util.LinkedHashMap;
 public class Student {
 
     private String firstName;
-    @NotNull // validation for lastName
+    @NotNull(message = "is required") // validation for lastName
     @Size(min = 1, message = "is required") // validation for lastName
     private String lastName;
     private String country;

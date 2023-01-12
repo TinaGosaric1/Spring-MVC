@@ -7,19 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38b5db22-0528-4cca-bb72-f98701cdf2fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-validator-6.2.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-validator-annotation-processor-6.2.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-validator-cdi-6.2.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jakarta.el-3.0.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jakarta.validation-api-2.0.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.4.1.Final.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_5_2_3_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tg/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tg/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tg/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tg/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/my-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/my-form.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +168,7 @@
       <workItem from="1673332029917" duration="7919000" />
       <workItem from="1673419132611" duration="12914000" />
       <workItem from="1673442826470" duration="36000" />
-      <workItem from="1673513460451" duration="6916000" />
+      <workItem from="1673513460451" duration="9063000" />
     </task>
     <servers />
   </component>
