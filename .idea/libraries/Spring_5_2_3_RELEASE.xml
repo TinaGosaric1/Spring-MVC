@@ -20,6 +20,13 @@
       <root url="jar://$PROJECT_DIR$/lib/spring-test-5.2.3.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-tx-5.2.3.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/classmate-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-6.2.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-annotation-processor-6.2.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-validator-cdi-6.2.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.el-3.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.validation-api-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jboss-logging-3.4.1.Final.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

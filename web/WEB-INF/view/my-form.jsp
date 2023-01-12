@@ -7,8 +7,17 @@
     <title>Student Registration Form</title>
 </head>
 
+<style>
+    .error {
+        color: red
+    }
+</style>
+
 <body>
 
+<i>Fill out the form. Asterisk (*) means required.</i>
+
+<br><br>
 <form:form action="processForm" modelAttribute="student">
 
     First name: <form:input
@@ -17,6 +26,7 @@
     <br><br>
 
     Last name: <form:input path="lastName"/> <!-- Spring MVC will call student.getLastName() -->
+    <form:errors path="lastName" cssClass="error"/>
 
     <br><br>
 
