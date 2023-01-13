@@ -33,8 +33,6 @@ public class StudentController {
 
     @RequestMapping("/processForm")
     public String processForm(@Valid @ModelAttribute("student") Student theStudent, BindingResult theBindingResult) {
-        System.out.println("Last name: |" + theStudent.getLastName() + "|");
-
         if (theBindingResult.hasErrors()) {
             return "my-form";
         }

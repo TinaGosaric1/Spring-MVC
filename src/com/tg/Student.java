@@ -1,7 +1,6 @@
 package com.tg;
 
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
@@ -15,6 +14,13 @@ public class Student {
     private LinkedHashMap<String, String> countryOptions;
     private String favoriteLanguage;
     private ArrayList<String> operatingSystems = new ArrayList<>();
+    @NotNull(message = "is required")
+    @Min(value = 0, message = "must be greater than or equal to zero")
+    @Max(value = 10, message = "must be less than or equal to 10")
+    private Integer freePasses;
+    @Pattern(regexp = "^[a-zA-Z0-9]{5}", message = "only 5 chars/digits")
+    private String postalCode;
+
 
     public Student() {
         countryOptions = new LinkedHashMap<>();
@@ -68,5 +74,21 @@ public class Student {
 
     public void setOperatingSystems(ArrayList<String> operatingSystems) {
         this.operatingSystems = operatingSystems;
+    }
+
+    public Integer getFreePasses() {
+        return freePasses;
+    }
+
+    public void setFreePasses(Integer freePasses) {
+        this.freePasses = freePasses;
+    }
+
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
     }
 }
