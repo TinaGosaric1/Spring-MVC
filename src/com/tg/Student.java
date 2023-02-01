@@ -1,5 +1,7 @@
 package com.tg;
 
+import com.tg.validation.CourseCode; // our own validation package
+
 import javax.validation.constraints.*;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -21,6 +23,8 @@ public class Student {
     @Pattern(regexp = "^[a-zA-Z0-9]{5}", message = "only 5 chars/digits")
     private String postalCode;
 
+    @CourseCode(value = "EE", message = "must start with EE") // custom annotation
+    private String courseCode;
 
     public Student() {
         countryOptions = new LinkedHashMap<>();
@@ -90,5 +94,17 @@ public class Student {
 
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
+    }
+
+    public void setCountryOptions(LinkedHashMap<String, String> countryOptions) {
+        this.countryOptions = countryOptions;
+    }
+
+    public String getCourseCode() {
+        return courseCode;
+    }
+
+    public void setCourseCode(String courseCode) {
+        this.courseCode = courseCode;
     }
 }

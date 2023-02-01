@@ -38,6 +38,10 @@ Free passes: ${student.freePasses}
 
 Postal code: ${student.postalCode}
 
+<br><br>
+
+Course code: ${student.courseCode}
+
 </body>
 
 </html>

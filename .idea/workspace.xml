@@ -8,10 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="38b5db22-0528-4cca-bb72-f98701cdf2fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-demo-one.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-demo-one.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tg/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tg/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tg/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tg/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/my-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/my-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/my-view.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/my-view.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -41,33 +41,40 @@
   <component name="ProjectId" id="2JwpfDdJJ6VDbybwhNZuzM9QVnR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/tina.gosaric/Desktop/Learning/0 JAVA/Projects/spring-mvc-demo-one/lib/jboss-logging-3.4.1.Final.jar&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;af3339f50d3544fd80227ad3077dc7cc&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "temurin-1.8",
+    "last_opened_file_path": "C:/Users/tina.gosaric/Desktop/Learning/0 JAVA/Projects/spring-mvc-demo-one",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "af3339f50d3544fd80227ad3077dc7cc"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tina.gosaric\Desktop\Learning\0 JAVA\Projects\spring-mvc-demo-one\lib" />
       <recent name="C:\Users\tina.gosaric\Desktop\Learning\0 JAVA\Projects\spring-mvc-demo-one\web\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tina.gosaric\Desktop\Learning\0 JAVA\Projects\spring-mvc-demo-one\resources\src" />
+      <recent name="C:\Users\tina.gosaric\Desktop\Learning\0 JAVA\Projects\spring-mvc-demo-one\resources" />
       <recent name="C:\Users\tina.gosaric\Desktop\Learning\0 JAVA\Projects\spring-mvc-demo-one\lib" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="spring-mvc-demo-one:Web exploded">
@@ -77,7 +84,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="26baa8f6-d291-45a3-a1ad-fd32dc084a17" />
+        <option name="BASE_DIRECTORY_NAME" value="c626f23b-7975-42d7-b0f1-c6a30c1e8ed6" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -85,7 +92,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56232" />
+        <option name="DEBUG_PORT" value="53378" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -173,7 +180,17 @@
       <workItem from="1673442826470" duration="36000" />
       <workItem from="1673513460451" duration="9836000" />
       <workItem from="1673532904927" duration="3550000" />
-      <workItem from="1673599631508" duration="7679000" />
+      <workItem from="1673599631508" duration="15898000" />
+      <workItem from="1673877464444" duration="598000" />
+      <workItem from="1673944097289" duration="2044000" />
+      <workItem from="1673964351796" duration="464000" />
+      <workItem from="1673964841727" duration="1076000" />
+      <workItem from="1673966254320" duration="4299000" />
+      <workItem from="1674117533543" duration="198000" />
+      <workItem from="1674228876173" duration="4000" />
+      <workItem from="1674231201066" duration="6000" />
+      <workItem from="1674413515655" duration="74000" />
+      <workItem from="1675253571159" duration="2983000" />
     </task>
     <servers />
   </component>
